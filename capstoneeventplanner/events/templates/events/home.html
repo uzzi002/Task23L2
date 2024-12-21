@@ -1,0 +1,7 @@
+{% extends 'events/base.html' %}
+{% block title %}Home{% endblock %}
+{% block content %}
+<h1>Welcome to Event Planner!</h1>
+<a class="btn btn-primary" href="{% url 'events:login' %}">Login</a>
+<a class="btn btn-secondary" href="{% url 'events:register' %}">Register</a>
+{% endblock %}
